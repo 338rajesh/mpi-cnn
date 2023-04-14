@@ -7,5 +7,5 @@
   + PyTorch scripts for building and training the models
   + Trained models
 
-Data sets can be accessed here. (link will be added soon)
+Data sets can be accessed [here](https://drive.google.com/file/d/1_FSIjLjN_WppQRGp3j8wG7-uFbUVwU-x/view?usp=share_link).
 
