@@ -1,3 +1,9 @@
+# Data sets for Material Property Informed CNN
+
+## Access to data sets
+
+[Download](https://drive.google.com/file/d/1_FSIjLjN_WppQRGp3j8wG7-uFbUVwU-x/view?usp=share_link)
+
 ## Structure of the datasets
 
 ### Datasets: D1, D2, D3 and D4
