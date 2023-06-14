@@ -1,10 +1,9 @@
-# Data sets for Material Property Informed CNN
-
-## Access to data sets
-
-[Download](https://drive.google.com/file/d/1_FSIjLjN_WppQRGp3j8wG7-uFbUVwU-x/view?usp=share_link)
-
 ## Structure of the datasets
+
+Data sets can be accessed on [Kaggle](https://doi.org/10.34740/kaggle/ds/3402384) or [Zeono](https://doi.org/10.5281/zenodo.8035643)
+
+The data set contains the transverse elastic properties of uni-directional composite materials
+with the following details.
 
 ### Datasets: D1, D2, D3 and D4
 
@@ -17,15 +16,17 @@
 | **X_test** shape | (40, 250, 256, 256, 1) | (20, 250, 256, 256, 1)| ( 6, 250, 256, 256, 1) | (15, 200, 256, 256, 1) |
 | **y_test** shape | (40, 250, 8)           | (20, 250, 8)          | ( 6, 250, 8)           | (15, 200, 8)           |
 
-### Labels
+Here,
++ vf: fibre volume fraction
++ Ecr: Elastic moduli contrast, the ratio of fibre elastic moduls to that of the matrix
++ Each of the label arrays contain 8 columns, which are
+	+   column index 	=> 		label
+		`0 				=>    Vf`, Fibre volume fraction
+		`1 				=>    Em`, Matrix elastic modulus
+		`2 				=>    NUm`, Matrix Poisson's ratio
+		`3 				=>    Ef`, Fibre elastic modulus
+		`4 				=>    NUf`, Fibre Poisson's ratio
+		`5 				=>    E22/Em`
+		`6 				=>    E33/Em`
+		`7 				=>    G23/Gm`
 
-column index => label
-
-1. `0 =>    Vf`, Fibre volume fraction
-2. `1 =>    Em`, Matrix elastic modulus
-3. `2 =>    NUm`, Matrix Poisson's ratio
-4. `3 =>    Ef`, Fibre elastic modulus
-5. `4 =>    NUf`, Fibre Poisson's ratio
-6. `5 =>    E22/Em`
-7. `6 =>    E33/Em`
-8. `7 =>    G23/Gm`
