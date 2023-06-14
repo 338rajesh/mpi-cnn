@@ -2,11 +2,12 @@
 
 ---
 The repository contains the supporting data for the work titled "**[A generalised deep learning-based surrogate model for homogenisation utilising material property encoding and physics-based bounds](https://doi.org/10.1038/s41598-023-34823-3)**" authored by Rajesh Nakka, Dineshkumar Harursampath and Sathiskumar A Ponnusami.
+
 [https://doi.org/10.1038/s41598-023-34823-3](https://doi.org/10.1038/s41598-023-34823-3)
 
 ---
 
-+ Data sets can be accessed on [Kaggle](https://doi.org/10.34740/kaggle/ds/3402384) or [Zeono](https://doi.org/10.5281/zenodo.8035643)
++ Data sets can be accessed on [Kaggle](https://doi.org/10.34740/kaggle/ds/3402384) or [Zeonodo](https://doi.org/10.5281/zenodo.8035643)
 
 + This repository contains
   + PyTorch scripts for building and training the models
